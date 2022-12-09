@@ -1,0 +1,20 @@
+/*default css*/
+.site-header{
+    background-color: #403d3d;
+    color: #eee;
+}
+.main-navigation li a,.hill_icon_header,.site-title a{
+    color: #fff;
+}
+.main-navigation li a:hover,body .hill_icon_header:hover,.site-title a:hover{
+    color: #eee;
+}
+.main-navigation .current-menu-item a{
+    color: #eee;
+}
+.main-navigation .sub-menu,.main-navigation .children{
+    background-color: #eee;
+}
+.main-navigation .sub-menu li a,.main-navigation .children li a{
+   color: #eee;
+}

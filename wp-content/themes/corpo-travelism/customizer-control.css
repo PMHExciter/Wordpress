@@ -1,0 +1,6 @@
+#accordion-section-travelism_hero_banner_section,
+#accordion-section-travelism_northface_jacket_section,
+#accordion-section-travelism_gallery_section,
+#accordion-section-travelism_wildlife_section {
+    display: none !important;
+}

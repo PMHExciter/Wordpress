@@ -1,0 +1,387 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nexproperty\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-11 09:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4"
+
+#: comments.php:39
+msgid "Add a Comment"
+msgstr ""
+
+#: includes/ocdi/configuration.php:252
+msgid "Add Car"
+msgstr ""
+
+#: includes/customizer.php:135 includes/ocdi/configuration.php:254
+msgid "Add Property"
+msgstr ""
+
+#: includes/ocdi/configuration.php:210
+msgid ""
+"Aenean sollicitudin, lorem quis bibend auctor, nisi elit consequat ipsum, "
+"necittis sem nibh id elit. Duis sed odio enim."
+msgstr ""
+
+#: includes/customizer.php:183
+msgid "Blog Page"
+msgstr ""
+
+#: includes/customizer.php:200
+msgid "Blog Standard"
+msgstr ""
+
+#: includes/theme-setup.php:163
+msgid "Blue Quote"
+msgstr ""
+
+#: template-parts/content-page.php:36 template-parts/content.php:36
+msgid "by"
+msgstr ""
+
+#: includes/comment-walker.php:13
+msgid "Comments"
+msgstr ""
+
+#: comments.php:24
+msgid "Comments are closed."
+msgstr ""
+
+#: template-parts/content-page.php:70 template-parts/content.php:70
+msgid "Continue Reading "
+msgstr ""
+
+#: includes/customizer.php:175
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/customizer.php:160
+msgid "Email Address"
+msgstr ""
+
+#: includes/customizer.php:176
+msgid "Enter Copyright text"
+msgstr ""
+
+#: includes/customizer.php:161
+msgid "Enter Email Address"
+msgstr ""
+
+#: includes/customizer.php:156
+msgid "Enter Phone Number"
+msgstr ""
+
+#: includes/customizer.php:133
+msgid "Enter Property button Text"
+msgstr ""
+
+#: includes/customizer.php:117
+msgid "Enter Sign-In button Text"
+msgstr ""
+
+#: includes/customizer.php:198
+msgid ""
+"Enter the blog page heading. Leave empty if you want to show default page "
+"name"
+msgstr ""
+
+#: includes/customizer.php:150
+msgid "Enter the content"
+msgstr ""
+
+#: includes/customizer.php:274
+msgid ""
+"Enter the number of words to be shown in the posts content on main blog page"
+msgstr ""
+
+#: template-parts/content-page.php:58 template-parts/content.php:58
+msgid "Featured"
+msgstr ""
+
+#: includes/customizer.php:140 includes/theme-setup.php:94
+msgid "Footer"
+msgstr ""
+
+#: includes/customizer.php:149
+msgid "Footer Content"
+msgstr ""
+
+#: includes/theme-setup.php:40
+msgid "Footer Links"
+msgstr ""
+
+#: includes/customizer.php:102
+msgid "Header"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://wpdirectorykit.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.wpdirectorykit.com/nexproperty/"
+msgstr ""
+
+#: functions.php:59
+msgid "import now"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: header.php:71
+msgid "Log Out"
+msgstr ""
+
+#: includes/customizer.php:144
+msgid "Logo"
+msgstr ""
+
+#: header.php:40
+msgid "logo"
+msgstr ""
+
+#: header.php:63 includes/theme-setup.php:41
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/ocdi/configuration.php:242
+msgid "Newsletter"
+msgstr ""
+
+#. Name of the theme
+#: includes/customizer.php:26
+msgid "NexProperty"
+msgstr ""
+
+#: includes/customizer.php:110 includes/customizer.php:126
+#: includes/customizer.php:169 includes/customizer.php:191
+#: includes/customizer.php:207 includes/customizer.php:217
+#: includes/customizer.php:227 includes/customizer.php:237
+#: includes/customizer.php:247 includes/customizer.php:257
+#: includes/customizer.php:267
+msgid "No"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-page.php:77 template-parts/content.php:77
+msgid "Page"
+msgstr ""
+
+#: includes/customizer.php:197
+msgid "Page Heading Text"
+msgstr ""
+
+#: template-parts/content-page.php:77 template-parts/content.php:77
+msgid "Pages:"
+msgstr ""
+
+#: includes/customizer.php:155
+msgid "Phone Number"
+msgstr ""
+
+#: includes/ocdi/configuration.php:240
+msgid "Popular Properties"
+msgstr ""
+
+#: template-parts/navigation.php:23
+msgid "Post"
+msgstr ""
+
+#: comments.php:41 comments.php:43
+msgid "Post Comment"
+msgstr ""
+
+#: includes/comment-walker.php:49
+msgid "Posted on "
+msgstr ""
+
+#: archive.php:49
+msgid "Posts navigation"
+msgstr ""
+
+#: includes/theme-setup.php:39
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/customizer.php:132
+msgid "Property Button Text"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Real Estate Directory Theme for Real Estate Agency, but will help you to run "
+"any type of Directory Business."
+msgstr ""
+
+#: includes/comment-walker.php:59
+msgid "Reply"
+msgstr ""
+
+#: searchform.php:18
+msgid "Search"
+msgstr ""
+
+#: searchform.php:17
+msgid "Search..."
+msgstr ""
+
+#: includes/customizer.php:233
+msgid "Show author info on single post?"
+msgstr ""
+
+#: includes/customizer.php:253
+msgid "Show categories?"
+msgstr ""
+
+#: includes/customizer.php:243
+msgid "Show comments count?"
+msgstr ""
+
+#: includes/customizer.php:165
+msgid "Show Footer Widgets?"
+msgstr ""
+
+#: includes/customizer.php:187
+msgid "Show Page Heading?"
+msgstr ""
+
+#: includes/customizer.php:223
+msgid "Show post author?"
+msgstr ""
+
+#: includes/customizer.php:213
+msgid "Show post date?"
+msgstr ""
+
+#: includes/customizer.php:122
+msgid "Show Property Button?"
+msgstr ""
+
+#: includes/customizer.php:203
+msgid "Show Sidebar?"
+msgstr ""
+
+#: includes/customizer.php:106
+msgid "Show Sign In button?"
+msgstr ""
+
+#: includes/customizer.php:263
+msgid "Show Tags?"
+msgstr ""
+
+#: includes/theme-setup.php:85
+msgid "Sidebar"
+msgstr ""
+
+#: includes/customizer.php:119 includes/ocdi/configuration.php:249
+msgid "Sign In"
+msgstr ""
+
+#: includes/customizer.php:116
+msgid "Sign-in Text"
+msgstr ""
+
+#: header.php:34
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: includes/customizer.php:133
+msgid ""
+"This only works on standard WP pages, for Elementor pages please check in "
+"Elementor on specific page related"
+msgstr ""
+
+#: includes/customizer.php:145
+msgid "Upload/Change Footer logo"
+msgstr ""
+
+#: functions.php:59
+msgid "We recommend import demo content: "
+msgstr ""
+
+#: includes/customizer.php:188
+msgid "Whether to show Blog page heading or not?"
+msgstr ""
+
+#: includes/customizer.php:254
+msgid "Whether to show categories on posts or not?"
+msgstr ""
+
+#: includes/customizer.php:166
+msgid "Whether to show Footer Widgets or not?"
+msgstr ""
+
+#: includes/customizer.php:107 includes/customizer.php:123
+msgid "Whether to show header sign-in button or not?"
+msgstr ""
+
+#: includes/customizer.php:244
+msgid "Whether to show number of comments on posts or not?"
+msgstr ""
+
+#: includes/customizer.php:234
+msgid "Whether to show post author info on single post page or not?"
+msgstr ""
+
+#: includes/customizer.php:224
+msgid "Whether to show post author or not?"
+msgstr ""
+
+#: includes/customizer.php:214
+msgid "Whether to show post date or not?"
+msgstr ""
+
+#: includes/customizer.php:204
+msgid "Whether to show Sidebar or not?"
+msgstr ""
+
+#: includes/customizer.php:264
+msgid "Whether to show Tags on posts or not?"
+msgstr ""
+
+#: includes/customizer.php:273
+msgid "Words to show in Posts content"
+msgstr ""
+
+#. Author of the theme
+msgid "wpdirectorykit.com"
+msgstr ""
+
+#: includes/customizer.php:109 includes/customizer.php:125
+#: includes/customizer.php:168 includes/customizer.php:190
+#: includes/customizer.php:206 includes/customizer.php:216
+#: includes/customizer.php:226 includes/customizer.php:236
+#: includes/customizer.php:246 includes/customizer.php:256
+#: includes/customizer.php:266
+msgid "Yes"
+msgstr ""

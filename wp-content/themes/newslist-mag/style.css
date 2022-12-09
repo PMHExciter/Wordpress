@@ -1,0 +1,269 @@
+/*	
+Theme Name: Newslist Mag
+Theme URI: https://risethemes.com/newslist/
+Author: risetheme
+Author URI: https://risethemes.com/
+Description: Newslist Mag is a fast, clean, modern-looking Magazine WordPress theme. It is SEO friendly, Gutenberg support, translation and page builder ready. Newslist mag is fit for dynamic news, newspapers, magazine, publishers, blogings, editors, online and tech magazines and creative business. Check out Live preview : https://preview.risethemes.com/sites/newslist-magazine/
+Template: newslist
+Version: 1.1
+Requires PHP: 7.0
+Tested up to: 5.9
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newslist-mag
+Domain Path: /languages
+Tags: custom-menu, custom-logo, entertainment, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog
+*/
+
+.newslist-theme-slider-main-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    position: relative !important;
+}
+
+.newslist-theme-slider-main-wrap .newslist-blog-post-slide-item {
+    margin: 0 11px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.newslist-theme-slider-main-wrap .slick-slide {
+    margin: 0 6px
+}
+
+
+.newslist-blog-post-slide-wrap {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+    max-width: 100%;
+    margin: 0 0 0 auto;
+    border-radius: 10px;
+    height: 570px;
+}
+
+.newslist-blog-post-slide-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.newslist-blog-post-slide-content-inner {
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 99;
+}
+
+.newslist-blog-post-slide-content .category-box {
+    display: inline-block;
+    position: relative;
+}
+
+.newslist-blog-post-slide-content .category-box a:nth-child(odd) {
+    background: #5c5656;
+}
+
+ .newslist-blog-post-slide-content h2.post-title {
+    text-align: left;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    border-radius: 3px;
+}
+
+.newslist-blog-post-slide-content h2.post-title a {
+    color: #fff;
+}
+
+.newslist-blog-post-slide-content .post-meta-items {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    text-align: left;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.newslist-blog-post-slide-content .post-meta-items div {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    position: relative;
+    margin-right: 35px;
+    padding-right: 0;
+    display: inline-block;
+}
+
+.newslist-blog-post-slide-content .post-meta-items div.date-box {
+    padding-left: 25px;
+}
+
+.newslist-blog-post-slide-content .post-meta-items div.comment-box {
+    padding-left: 25px;
+}
+
+.newslist-blog-post-slide-content .post-meta-items .author-name img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 14px;
+    display: inline-block;
+}
+
+.newslist-blog-post-slide-content .post-meta-items .author-name a {
+    color: #fff;
+}
+
+.newslist-blog-post-slide-content::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(180deg, rgba(21, 21, 21, 0) 0%, #151515 100%);
+    background: -o-linear-gradient(180deg, rgba(21, 21, 21, 0) 0%, #151515 100%);
+    background: linear-gradient(180deg, rgba(21, 21, 21, 0) 0%, #151515 100%);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+a.news-cat_Name {
+    text-decoration: none;
+    padding: 6px;
+    color: #fff;
+    background: #000;
+    margin-right: 10px;
+}
+
+.newslist-theme-slider-main-wrap .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    transform: translate(0, -50%);
+    background: transparent;
+    border: none;
+    color: #fff;
+    z-index: 9;
+    cursor: pointer;
+    font-size: 35px;
+    background: #00000073;
+    line-height: 1;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.slider-next.slick-arrow {
+    right: 35px;
+    left: auto;
+}
+
+body .newslist-latest-post-wrapper {
+    margin: 15px 0 15px;
+}
+
+.banner-content-center.banner-background-scroll.newslist-inner-banner-wrapper +  .newslist-theme-slider-main-wrap {
+    margin-top: 15px;
+}
+
+
+.newslist-header-banner-image + .site-branding {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.image-both-side .newslist-header-banner-image {
+    flex: 0 0 37.5%;
+    max-width: 37.5%;
+}
+
+@media (max-width: 992px) {
+    .image-both-side .newslist-header-banner-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    body .newlist-tag-wrapper {
+        padding: 5px 0px !important;
+    }
+    .newslist-theme-slider-main-wrap {
+        margin: 0;
+    }
+}
+
+
+/* top tag and lattest post style */
+body .slick-slider {
+    position: initial;
+}
+body .newlist-tag-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+body .newslist-latest-post-wrapper {
+
+    margin: 0px 0 15px;
+}
+
+body .newslist-latest-post-wrapper .newslist-latest-post-inner {
+    height: 60px;
+    
+}
+body .newslist-latest-post-wrapper .newslist-latest-post-inner .newslist-latest-post {
+    height: 60px;
+    line-height: 60px;
+    z-index: 10;
+}
+body .newslist-latest-post-slider{
+    z-index: 9 !important;
+}
+body .newslist-latest-post-wrapper .newslist-latest-post-inner .newslist-latest-post .newslist-latest-post-title {
+    height: 60px;
+}
+
+body .newslist-latest-post-wrapper .newslist-latest-post-inner .newslist-latest-post .newslist-latest-post-title span:before {
+    top: 20px;
+
+}
+
+body .newslist-latest-post-wrapper .newslist-latest-post-inner .newslist-latest-post-slider {
+    height: 60px;
+    line-height: 50px;
+}
+
+body .newslist-latest-post-wrapper .newslist-latest-post-inner .newslist-latest-post-slider a {
+    color:  #fff;
+}
+.newslist-container-box .newslist-theme-slider-main-wrap {
+    max-width: 1140px !important;
+    margin: auto;
+}
+
+.newslist-container-box .newslist-theme-slider-main-wrap .newslist-blog-post-slide-item {
+    margin: 0;
+}

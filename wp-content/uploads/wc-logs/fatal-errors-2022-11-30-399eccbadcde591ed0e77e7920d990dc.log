@@ -1,0 +1,17 @@
+2022-11-30T11:52:41+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in C:\xampp\htdocs\wordpress\wp-includes\blocks.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\blocks.php(20): strpos(Array, 'file:')
+#1 C:\xampp\htdocs\wordpress\wp-includes\blocks.php(84): remove_block_asset_path_prefix(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\blocks.php(329): register_block_script_handle(Array, 'viewScript')
+#3 C:\xampp\htdocs\wordpress\wp-includes\blocks\navigation.php(651): register_block_type_from_metadata('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): register_block_core_navigation('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-settings.php(598): do_action('init')
+#8 C:\xampp\htdocs\wordpress\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\blocks.php on line 20
+

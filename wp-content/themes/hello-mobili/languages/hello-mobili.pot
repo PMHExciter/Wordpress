@@ -1,0 +1,300 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Hello Mobili\n"
+"POT-Creation-Date: 2022-05-19 20:22+0430\n"
+"PO-Revision-Date: 2022-05-19 20:21+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:14
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:15
+msgid "Nothing here"
+msgstr ""
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. :("
+msgstr ""
+
+#: archive.php:20
+#, php-format
+msgid "%s results found."
+msgstr ""
+
+#: archive.php:22
+msgid "One result found."
+msgstr ""
+
+#: archive.php:24
+msgid "No results found."
+msgstr ""
+
+#: comments.php:32
+msgid "1 comment"
+msgstr ""
+
+#. translators: %s: Comment count number.
+#: comments.php:36
+#, php-format
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:68
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:72
+msgid "Cancel reply"
+msgstr ""
+
+#: includes/classes/Walker_Comment.php:42
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/classes/Walker_Comment.php:44
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
+msgstr ""
+
+#. translators: %s: Comment author link.
+#: includes/classes/Walker_Comment.php:67
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#. translators: 1: Comment date, 2: Comment time.
+#: includes/classes/Walker_Comment.php:81
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/classes/Walker_Comment.php:87
+msgid "Edit"
+msgstr ""
+
+#: includes/functions/optimized.php:20
+msgid "Add or set the menu."
+msgstr ""
+
+#: includes/functions/optimized.php:22
+#, php-format
+msgid "Set the menu for %s location."
+msgstr ""
+
+#. translators: %s: Publish date.
+#: includes/functions/templates.php:30
+#, php-format
+msgid "Published %s"
+msgstr ""
+
+#. translators: %s: Author name.
+#: includes/functions/templates.php:51
+#: template-parts/content/content-single.php:68
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: includes/functions/templates.php:86
+#: template-parts/content/content-page.php:63
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. translators: Used between list items, there is a space after the comma.
+#: includes/functions/templates.php:98
+#: template-parts/content/content-page.php:23
+#: template-parts/content/content-single.php:22
+msgid ", "
+msgstr ""
+
+#. translators: %s: List of tags.
+#: includes/functions/templates.php:102
+#, php-format
+msgid "Tagged %s"
+msgstr ""
+
+#. translators: %s: WordPress Version.
+#: includes/hooks/back-compat.php:43 includes/hooks/back-compat.php:62
+#: includes/hooks/back-compat.php:88
+#, php-format
+msgid ""
+"This theme requires WordPress 5.3 or newer. You are running version %s. "
+"Please upgrade."
+msgstr ""
+
+#: includes/hooks/recommends.php:14
+msgid "Set to display in mobile mode"
+msgstr ""
+
+#: includes/hooks/recommends.php:16
+msgid ""
+"With the mobili plugin, you can set this template to be displayed only when "
+"the user enters your site with a mobile device."
+msgstr ""
+
+#: includes/hooks/recommends.php:18
+msgid "Install now!"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "We found %d result for your search."
+msgid_plural "We found %d results for your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Search term.
+#: search.php:36
+#, php-format
+msgid "Results for \"%s\""
+msgstr ""
+
+#: searchform.php:22
+msgid "Search in site..."
+msgstr ""
+
+#: searchform.php:24
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#. translators: %s: Parent post link.
+#: single.php:25
+#, php-format
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</"
+"span>"
+msgstr ""
+
+#: single.php:35
+msgid "Next post"
+msgstr ""
+
+#: single.php:36
+msgid "Previous post"
+msgstr ""
+
+#: template-parts/content/card/format-audio.php:18
+#: template-parts/content/card/format-video.php:18
+msgid "Play video"
+msgstr ""
+
+#. translators: %s: List of categories.
+#: template-parts/content/content-card.php:17
+#: template-parts/content/content-page.php:27
+#: template-parts/content/content-single.php:26
+#, php-format
+msgid "Categorized as %s"
+msgstr ""
+
+#: template-parts/content/content-card.php:21
+msgid "Posted by"
+msgstr ""
+
+#: template-parts/content/content-page.php:47
+#: template-parts/content/content-single.php:46
+msgid "Page"
+msgstr ""
+
+#. translators: %: Page number.
+#: template-parts/content/content-page.php:50
+#: template-parts/content/content-single.php:49
+msgid "Page %"
+msgstr ""
+
+#. translators: %s: Author name.
+#: template-parts/content/content-single.php:81
+#, php-format
+msgid "View all of %s's posts."
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:16
+#: template-parts/footer/navigation-bar.php:46
+msgid "Search"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:22
+msgid "Quick Access"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:32
+msgid "Navigate to back"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:34
+msgid "Back"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:38
+msgid "Navigate to home page"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:40
+msgid "Home"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:44
+msgid "Navigate to search form"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:51
+msgid "Navigate to account page"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:53
+msgid "Account"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:58
+msgid "Navigate to menu list"
+msgstr ""
+
+#: template-parts/footer/navigation-bar.php:60
+msgid "Menu"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Hello Mobili"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wp-mobili.com/themes/hello-mobili/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Hello Mobili is a starter template for WP Mobili plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "the Mobili team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wp-mobili.com/"
+msgstr ""

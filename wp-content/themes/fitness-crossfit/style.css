@@ -1,0 +1,211 @@
+/*
+Theme Name: Fitness Crossfit
+Theme URI: https://www.vwthemes.com/themes/free-crossfit-wordpress-theme/
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: Fitness Crossfit is theme for sports, Gym Training, multi martial arts MMA, bodybuilding, fitness trainers, cardio trainers,  gym,Fitness centers, indoor and outdoor exercise class, workout, yoga etc. The theme is built on bootstrap framework. If you opt to use Gutnberg the theme can be setup very easily using Gutenberg. Demo: https://www.vwthemes.net/fitness-crossfit/
+Template: vw-fitness-gym
+Tested up to: 6.0
+Requires PHP: 7.2
+Version: 1.1
+License: GPLv3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: fitness-crossfit
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, flexible-header, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, threaded-comments, post-formats, education, food-and-drink, e-commerce
+*/
+
+.toggle-nav button:focus,.search-box a:focus{
+  outline-color: #000;
+}
+body {
+  background: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+}
+#header {
+  background: #fff;
+  top: 0;
+}
+.logo-inner, .logo-box, .logo-box img {
+  position: static;
+  width: auto;
+  margin: 0;
+}
+.logo {
+  border: 0;
+  position: relative;
+}
+.logo-box {
+  background-color: #ffc702;
+  border-radius: 10px;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  padding: 20px;
+  transform: translateY(-15%);
+  z-index: 1;
+}
+.serach_outer{
+  z-index: 99999999;
+}
+
+a, .post-main-box:hover h2 a, .post-main-box:hover h2, .post-main-box:hover .entry-date a, .post-main-box:hover .entry-author a, .single-post .post-info:hover .entry-date a, .single-post .post-info:hover .entry-author a, #footer li a:hover, .serv-box h4 a:hover, #topbar .custom-social-icons i:hover, #topbar span i, .main-navigation a:hover, #topbar span a:hover, .main-navigation ul.sub-menu a:hover, .more-btn a:hover, .woocommerce-product-details__short-description p a, .entry-content a, .sidebar .textwidget p a, .textwidget p a, #comments p a, .slider .inner_carousel p a, #slider .inner_carousel h1 a:hover, #sidebar ul li a:hover {
+  color: #ffc702;
+}
+.main-navigation a:hover, .main-navigation ul ul, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, #footer h3:after, #footer .wp-block-search .wp-block-search__label:after, #footer .tagcloud a:hover, #sidebar .tagcloud a:hover {
+  border-color: #ffc702;
+}
+.search-box i, .more-btn a, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, .scrollup i, #footer input[type="submit"], #footer-2, #footer .tagcloud a:hover, #sidebar h3, #sidebar .wp-block-search .wp-block-search__label, .pagination .current, .pagination a:hover, #sidebar input[type="submit"], #sidebar .tagcloud a:hover, #comments input[type="submit"], #comments a.comment-reply-link, .woocommerce span.onsale, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce a.added_to_cart.wc-forward, nav.woocommerce-MyAccount-navigation ul li {
+  background: #ffc702;
+}
+.more-btn a, #footer input[type="submit"], .copyright p, .scrollup i, #footer .tagcloud a:hover, #sidebar h3, #sidebar .wp-block-search .wp-block-search__label, .post-main-box h2 a, .pagination .current, .pagination a:hover, #sidebar input[type="submit"], #sidebar .tagcloud a:hover, #comments input[type="submit"], #comments a time, #comments a.comment-reply-link, .woocommerce span.onsale, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, h2.woocommerce-loop-product__title, .woocommerce div.product .product_title, .woocommerce a.added_to_cart.wc-forward, nav.woocommerce-MyAccount-navigation ul li a, .woocommerce ul.products li.product .price {
+  color: #000;
+}
+#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+  border-radius: 0;
+  padding: 10px 16px;
+}
+#slider .carousel-control-prev, #slider .carousel-control-next {
+  top: 60%;
+  transform: translateY(-40%);
+  right: 10%;
+  left: auto;
+  bottom: auto;
+}
+#slider .carousel-control-prev {
+  margin: 65px 0 0;
+}
+#about-us {
+  background: #24272e;
+}
+#about-us h3{
+  color: #fff;
+}
+
+/*BMI Section*/
+#bmi-section span.small-title {
+  color: #626262;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  display: block;
+}
+#bmi-section h3 {
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+.bmi-calculator {
+  max-width: 450px;
+}
+.bmi-calculator select {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  background: transparent;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  color: #000;
+}
+.bmi-calculator input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 14px;
+}
+.bmi-calculator input::placeholder {
+  color: #000;
+}
+input.bmi_button {
+  background: #ffc702;
+  color: #000;
+  width: 100%;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.bmi-graph table {
+  width: 100%;
+  border: 1px solid #bcbcbc;
+}
+.bmi-graph table thead {
+  background: #ffc702;
+  text-align: center;
+}
+.bmi-graph table td {
+  padding: 15px 25px;
+  font-size: 16px;
+  color: #040404;
+  letter-spacing: 1px;
+  border: 1px solid #ddd;
+}
+.bmi-graph table thead td {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px;
+}
+.bmi-graph table thead td:first-child {
+  border-right: 1px solid #fff;
+}
+.bmi-graph table td {
+  width: 50%;
+}
+
+.copyright a {
+  color: #000;
+}
+.post-main-box, #sidebar .widget, #sidebar input[type="search"], .single-post .post-info, .tags a, #comments input[type="text"], #comments input[type="email"], #comments textarea, #comments ol li, .products li, .woocommerce .quantity .qty, .woocommerce-message, .woocommerce-info {
+  background: transparent;
+}
+#sidebar .widget, #sidebar input[type="search"], .post-main-box, #comments input[type="text"], #comments input[type="email"], #comments textarea, #comments ol li, .products li, .woocommerce .quantity .qty {
+  border: 1px solid #bcbcbc;
+}
+#sidebar ul li {
+  border-color: #eee;
+}
+.more-btn a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .toggle-nav i {
+    background: #ffc702;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 720px) {
+  .page-template-custom-home-page .home-page-header {
+    background: #191a1f;
+    padding-bottom: 25px;
+  }
+  .logo {
+    background: transparent;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .page-template-custom-home-page .home-page-header {
+    background: #191a1f;
+    padding-bottom: 25px;
+  }
+  .logo {
+    background: transparent;
+    padding: 0;
+  }
+  .logo-box{
+    position: static;
+    transform: none;
+  }
+  #header {
+    padding: 10px;
+  }
+  input.bmi_button {
+    margin-bottom: 10px;
+  }
+}

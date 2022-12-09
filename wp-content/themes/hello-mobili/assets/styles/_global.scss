@@ -1,0 +1,145 @@
+body {
+  font-size: 16px;
+  color: #222;
+  direction: ltr;
+  background: #f5f5f5;
+  padding-bottom: 100px;
+  font-family: 'Roboto';
+}
+
+a {
+  color: #222;
+}
+
+a:hover {
+  color: $variables__color--primary;
+}
+
+.link--normalized {
+  text-decoration: none;
+  transition: color $variables__time--transition;
+
+  &:not(:hover) {
+    color: inherit;
+  }
+}
+
+.pagination {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+
+  .page-numbers {
+    display: block;
+    padding: 5px 15px;
+    background: #fff;
+    border-radius: $variables__size--radius;
+    color: #666;
+    margin: 0 5px 5px 0;
+    transition: $variables__time--transition;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background: #666;
+    color: #fff;
+  }
+
+  .current {
+    background: transparent;
+    font-weight: 500;
+  }
+}
+
+.card {
+  background: #fff;
+  border-radius: $variables__size--radius;
+  padding: 30px;
+  border: none !important;
+
+  &.card-transparent {
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.card-title {
+  margin-bottom: 1.5rem;
+
+  .card-icon {
+    margin-right: 10px;
+    opacity: 0.1;
+  }
+}
+
+.card-subtitle {
+  margin-top: -1.5rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+  font-size: 0.87rem;
+
+  a:not(:hover) {
+    color: #444;
+  }
+}
+
+.btn {
+  @at-root #{&}-primary {
+    color: #fff;
+  }
+
+  @at-root #{&}--animated {
+    transition: $variables__time--transition;
+
+    &:hover {
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+    }
+
+    &:focus {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+    }
+  }
+}
+
+.button, .btn, .form-control {
+  border-radius: $variables__size--radius !important;
+}
+.button{
+  @extend .btn;
+  background-color: #eee;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+  background-color: $variables__color--primary;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: $variables__color--primaryDarken;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea, .woocommerce-Input {
+  @extend .form-control;
+}
+
+.mobili-pwa-installer{
+  bottom: 60px;
+}
+.show-in-focus{
+  transition: $variables__time--transition;
+
+  &:not(:focus){
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+
+@media (min-width: 820px) {
+  .container {
+    max-width: 820px;
+  }
+}

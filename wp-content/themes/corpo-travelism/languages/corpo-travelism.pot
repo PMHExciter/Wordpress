@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-23 17:25+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:72
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Click here to select icon"
+msgstr ""
+
+#: inc/customizer/blog-cta.php:13
+msgid "Blog CTA"
+msgstr ""
+
+#: inc/customizer/blog-cta.php:14
+msgid "Blog CTA Section options."
+msgstr ""
+
+#: inc/customizer/blog-cta.php:30
+msgid "Blog CTA Section Enable"
+msgstr ""
+
+#: inc/customizer/blog-cta.php:48 inc/customizer/business-about.php:79
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer/blog-cta.php:78
+msgid "Video URL"
+msgstr ""
+
+#: inc/customizer/blog-slider.php:13 inc/customizer/blog-slider.php:41
+msgid "Blog Slider"
+msgstr ""
+
+#: inc/customizer/blog-slider.php:14
+msgid "Blog Slider Section options."
+msgstr ""
+
+#: inc/customizer/blog-slider.php:30
+msgid "Blog Slider Section Enable"
+msgstr ""
+
+#: inc/customizer/blog-slider.php:48 inc/customizer/business-service.php:48
+#: inc/customizer/business-team.php:48
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/blog-slider.php:81 inc/customizer/business-service.php:112
+#: inc/customizer/business-team.php:112
+#, php-format
+msgid "Select Post %d"
+msgstr ""
+
+#: inc/customizer/blog-slider.php:112 inc/customizer/business-about.php:108
+#: inc/front-sections/blog-slider.php:115
+#: inc/front-sections/blog-slider.php:117
+msgid "Learn More"
+msgstr ""
+
+#: inc/customizer/blog-slider.php:119 inc/customizer/business-about.php:115
+#: inc/customizer/business-service.php:150
+msgid "Button Title"
+msgstr ""
+
+#: inc/customizer/business-about.php:13
+msgid "Business About"
+msgstr ""
+
+#: inc/customizer/business-about.php:14
+msgid "Business About Section options."
+msgstr ""
+
+#: inc/customizer/business-about.php:30
+msgid "Business About Section Enable"
+msgstr ""
+
+#: inc/customizer/business-about.php:41
+#: inc/front-sections/business-about.php:103
+#: inc/front-sections/business-about.php:104
+msgid "Creative Vision"
+msgstr ""
+
+#: inc/customizer/business-about.php:48 inc/customizer/business-service.php:79
+#: inc/customizer/business-team.php:79
+msgid "Section Sub Title"
+msgstr ""
+
+#: inc/customizer/business-counter.php:13
+msgid "Business Counter"
+msgstr ""
+
+#: inc/customizer/business-counter.php:14
+msgid "Business Counter Section options."
+msgstr ""
+
+#: inc/customizer/business-counter.php:30
+msgid "Business Counter Section Enable"
+msgstr ""
+
+#: inc/customizer/business-counter.php:44
+msgid "Counter BG Image"
+msgstr ""
+
+#: inc/customizer/business-counter.php:57
+#, php-format
+msgid "Select Icon %d"
+msgstr ""
+
+#: inc/customizer/business-counter.php:68
+#, php-format
+msgid "Value %d"
+msgstr ""
+
+#: inc/customizer/business-counter.php:80
+#, php-format
+msgid "Label %d"
+msgstr ""
+
+#: inc/customizer/business-service.php:13
+msgid "Business Service"
+msgstr ""
+
+#: inc/customizer/business-service.php:14
+msgid "Business Service Section options."
+msgstr ""
+
+#: inc/customizer/business-service.php:30
+msgid "Business Service Section Enable"
+msgstr ""
+
+#: inc/customizer/business-service.php:41
+#: inc/front-sections/business-service.php:106
+#: inc/front-sections/business-service.php:107
+msgid "What We Provide"
+msgstr ""
+
+#: inc/customizer/business-service.php:72
+#: inc/front-sections/business-service.php:103
+#: inc/front-sections/business-service.php:104
+msgid "WHO WE ARE"
+msgstr ""
+
+#: inc/customizer/business-service.php:143
+#: inc/front-sections/business-service.php:131
+#: inc/front-sections/business-service.php:133
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/business-team.php:13
+msgid "Business Team"
+msgstr ""
+
+#: inc/customizer/business-team.php:14
+msgid "Business Team Section options."
+msgstr ""
+
+#: inc/customizer/business-team.php:30
+msgid "Business Team Section Enable"
+msgstr ""
+
+#: inc/customizer/business-team.php:41
+#: inc/front-sections/business-team.php:106
+#: inc/front-sections/business-team.php:107
+msgid "Who We Have"
+msgstr ""
+
+#: inc/customizer/business-team.php:72
+#: inc/front-sections/business-team.php:103
+#: inc/front-sections/business-team.php:104
+msgid "OUR TEAM"
+msgstr ""
+
+#: inc/customizer/business-team.php:126
+#, php-format
+msgid "Position %d"
+msgstr ""
+
+#: inc/customizer/business-team.php:137
+msgid "Social "
+msgstr ""
+
+#: inc/customizer/business-team.php:138
+msgid "Add social."
+msgstr ""
+
+#: inc/customizer/logos.php:13
+msgid "Logos"
+msgstr ""
+
+#: inc/customizer/logos.php:14
+msgid "Logos Section options."
+msgstr ""
+
+#: inc/customizer/logos.php:30
+msgid "Logos Section Enable"
+msgstr ""
+
+#: inc/customizer/logos.php:46
+#, php-format
+msgid "Image %d"
+msgstr ""
+
+#: inc/customizer/logos.php:57
+#, php-format
+msgid "Partners Url %d"
+msgstr ""
+
+#: inc/front-sections/blog-slider.php:105
+#: inc/front-sections/blog-slider.php:106
+msgid "We Provide"
+msgstr ""
+
+#: inc/front-sections/business-about.php:112
+#: inc/front-sections/business-about.php:114
+msgid "More About Us"
+msgstr ""
